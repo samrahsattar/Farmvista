@@ -1,0 +1,416 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="@drawable/img_1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#006400"
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:title="Kitchen Gardening"
+            app:titleTextColor="@android:color/white"
+
+            />
+        <LinearLayout
+            android:id="@+id/block1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_corner"
+            android:padding="8dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cultivation of vegetable according to season"
+                android:padding="8dp"
+                android:textColor="@android:color/black"
+                android:drawableEnd="@drawable/ic_expand_more"
+                android:drawablePadding="8dp"
+                android:background="@drawable/clickable_background"
+                android:gravity="start|center_vertical" />
+
+
+            <TextView
+                android:id="@+id/details1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Summer Vegetables\n Summer vegetables include tomatoes, spinach, coriander, green chilies, eggplants, bitter gourd, bottle gourd, cucumber, green beans, and okra. These vegetables are rich in vitamins and minerals and are beneficial for health. All these vegetables are easily available in the market during the summer season."
+                android:padding="8dp"
+                android:visibility="gone"
+                android:background="@android:color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/block2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_corner"
+            android:padding="8dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time for Growing Summer Vegetables"
+                android:padding="8dp"
+                android:textColor="@android:color/black"
+                android:drawableEnd="@drawable/ic_expand_more"
+                android:drawablePadding="8dp"
+                android:background="@drawable/clickable_background"
+                android:gravity="start|center_vertical" />
+
+            <TextView
+                android:id="@+id/details2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Details about growing summer vegetables..."
+                android:padding="8dp"
+                android:visibility="gone"
+                android:background="@android:color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/block3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_corner"
+            android:padding="8dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/title3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time for Growing Winter Vegetables"
+                android:padding="8dp"
+                android:textColor="@android:color/black"
+                android:drawableEnd="@drawable/ic_expand_more"
+                android:drawablePadding="8dp"
+                android:background="@drawable/clickable_background"
+                android:gravity="start|center_vertical" />
+
+            <TextView
+                android:id="@+id/details3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Details about harvesting..."
+                android:padding="8dp"
+                android:visibility="gone"
+                android:background="@android:color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/block4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_corner"
+            android:padding="8dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/title4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Land Selection and preparation"
+                android:padding="8dp"
+                android:textColor="@android:color/black"
+                android:drawableEnd="@drawable/ic_expand_more"
+                android:drawablePadding="8dp"
+                android:background="@drawable/clickable_background"
+                android:gravity="start|center_vertical" />
+
+            <TextView
+                android:id="@+id/details4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Details about winter vegetable planning..."
+                android:padding="8dp"
+                android:visibility="gone"
+                android:background="@android:color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/block5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_corner"
+            android:padding="8dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/title5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cultivation Method"
+                android:padding="8dp"
+                android:textColor="@android:color/black"
+                android:drawableEnd="@drawable/ic_expand_more"
+                android:drawablePadding="8dp"
+                android:background="@drawable/clickable_background"
+                android:gravity="start|center_vertical" />
+
+            <TextView
+                android:id="@+id/details5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Details about soil preparation..."
+                android:padding="8dp"
+                android:visibility="gone"
+                android:background="@android:color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/block6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_corner"
+            android:padding="8dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/title6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cultivation By Vegetative Parts"
+                android:padding="8dp"
+                android:textColor="@android:color/black"
+                android:drawableEnd="@drawable/ic_expand_more"
+                android:drawablePadding="8dp"
+                android:background="@drawable/clickable_background"
+                android:gravity="start|center_vertical" />
+
+            <TextView
+                android:id="@+id/details6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Details about pest management..."
+                android:padding="8dp"
+                android:visibility="gone"
+                android:background="@android:color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/block7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_corner"
+            android:padding="8dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/title7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cultivation By Cheese"
+                android:padding="8dp"
+                android:textColor="@android:color/black"
+                android:drawableEnd="@drawable/ic_expand_more"
+                android:drawablePadding="8dp"
+                android:background="@drawable/clickable_background"
+                android:gravity="start|center_vertical" />
+
+            <TextView
+                android:id="@+id/details7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Details about irrigation techniques..."
+                android:padding="8dp"
+                android:visibility="gone"
+                android:background="@android:color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/block8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_corner"
+            android:padding="8dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/title8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Planting a nursery in a wooden Crate"
+                android:padding="8dp"
+                android:textColor="@android:color/black"
+                android:drawableEnd="@drawable/ic_expand_more"
+                android:drawablePadding="8dp"
+                android:background="@drawable/clickable_background"
+                android:gravity="start|center_vertical" />
+
+            <TextView
+                android:id="@+id/details8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Details about seed selection..."
+                android:padding="8dp"
+                android:visibility="gone"
+                android:background="@android:color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/block9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_corner"
+            android:padding="8dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/title9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Methods of Sowing"
+                android:padding="8dp"
+                android:textColor="@android:color/black"
+                android:drawableEnd="@drawable/ic_expand_more"
+                android:drawablePadding="8dp"
+                android:background="@drawable/clickable_background"
+                android:gravity="start|center_vertical" />
+
+            <TextView
+                android:id="@+id/details9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Details about nutrient management..."
+                android:padding="8dp"
+                android:visibility="gone"
+                android:background="@android:color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/block10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_corner"
+            android:padding="8dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/title10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Irrigation"
+                android:padding="8dp"
+                android:textColor="@android:color/black"
+                android:drawableEnd="@drawable/ic_expand_more"
+                android:drawablePadding="8dp"
+                android:background="@drawable/clickable_background"
+                android:gravity="start|center_vertical" />
+
+            <TextView
+                android:id="@+id/details10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Details about seed selection..."
+                android:padding="8dp"
+                android:visibility="gone"
+                android:background="@android:color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/block11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_corner"
+            android:padding="8dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/title11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Control of Hamrful Insects and Diseases"
+                android:padding="8dp"
+                android:textColor="@android:color/black"
+                android:drawableEnd="@drawable/ic_expand_more"
+                android:drawablePadding="8dp"
+                android:background="@drawable/clickable_background"
+                android:gravity="start|center_vertical" />
+
+            <TextView
+                android:id="@+id/details11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Details about seed selection..."
+                android:padding="8dp"
+                android:visibility="gone"
+                android:background="@android:color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/block12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_corner"
+            android:padding="8dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/title12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fertilizers"
+                android:padding="8dp"
+                android:textColor="@android:color/black"
+                android:drawableEnd="@drawable/ic_expand_more"
+                android:drawablePadding="8dp"
+                android:background="@drawable/clickable_background"
+                android:gravity="start|center_vertical" />
+
+            <TextView
+                android:id="@+id/details12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Details about seed selection..."
+                android:padding="8dp"
+                android:visibility="gone"
+                android:background="@android:color/white" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/block13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded_corner"
+            android:padding="8dp"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/title13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Endurance"
+                android:padding="8dp"
+                android:textColor="@android:color/black"
+                android:drawableEnd="@drawable/ic_expand_more"
+                android:drawablePadding="8dp"
+                android:background="@drawable/clickable_background"
+                android:gravity="start|center_vertical" />
+
+            <TextView
+                android:id="@+id/details13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Details about seed selection..."
+                android:padding="8dp"
+                android:visibility="gone"
+                android:background="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
