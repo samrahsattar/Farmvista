@@ -13,3 +13,6 @@
 .externalNativeBuild
 .cxx
 local.properties
+/app/src/main/java/com/example/kitchengardening/
+/app/src/test/java/com/example/kitchengardening/
+/app/src/androidTest/java/com/example/kitchengardening/
